@@ -1,10 +1,22 @@
 
+import React from 'react';
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
     <footer className="border-t border-white/10 bg-secondary/30">
       <div className="max-w-7xl mx-auto px-6 py-12">
+        <div className="flex items-center justify-between mb-8">
+          <div className="flex items-center space-x-4">
+            <img 
+              src="/logo-skins.png" 
+              alt="Mr Skins Logo" 
+              className="h-10 w-auto"
+            />
+            <h3 className="font-bold text-xl text-white">Mr Skins</h3>
+          </div>
+        </div>
+        
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <h3 className="font-bold text-xl">Mr Skins</h3>
@@ -53,3 +65,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

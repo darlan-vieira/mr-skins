@@ -1,4 +1,3 @@
-
 import { Badge } from "@/components/ui/badge";
 import { HandCoins, ShieldCheck, TrendingUp, Users } from "lucide-react";
 import EmailCaptureForm from "@/components/EmailCaptureForm";
@@ -34,10 +33,17 @@ const Index = () => {
       {/* Hero Section */}
       <section className="hero-gradient min-h-screen flex items-center relative">
         <div className="max-w-7xl mx-auto px-6 py-24 relative z-10">
-          <div className="max-w-3xl space-y-6">
+          <div className="flex items-center gap-4 mb-6">
+            <img 
+              src="/logo-skins.png" 
+              alt="Mr Skins Logo" 
+              className="h-16 w-auto"
+            />
             <Badge className="bg-primary/20 text-primary hover:bg-primary/30">
               Mercado em Crescimento
             </Badge>
+          </div>
+          <div className="max-w-3xl space-y-6">
             <h1 className="text-4xl sm:text-6xl font-bold">
               Transforme Skins de CS2 em{" "}
               <span className="text-gradient">Investimentos Lucrativos</span>
