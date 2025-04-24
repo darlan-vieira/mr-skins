@@ -1,5 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { HandCoins, ShieldCheck, TrendingUp, Users } from "lucide-react";
+import logo_2 from "@/assets/logo_2.png";
+import perfil_1 from "@/assets/perfil_1.png";
 import EmailCaptureForm from "@/components/EmailCaptureForm";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
@@ -30,16 +32,17 @@ const benefits = [
 const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
+      {/* Header */}
+      <header>
+        <div>
+          <img src={logo_2} alt="Logo" className="h-32" />
+        </div>
+      </header>
       {/* Hero Section */}
       <section className="hero-gradient min-h-screen flex items-center relative">
         <div className="max-w-7xl mx-auto px-6 py-24 relative z-10">
           <div className="flex items-center gap-4 mb-6">
-            <img 
-              src="/logo-skins.png" 
-              alt="Mr Skins Logo" 
-              className="h-16 w-auto"
-            />
-            <Badge className="bg-primary/20 text-primary hover:bg-primary/30">
+            <Badge className="bg-primary/20 border border-primary text-primary hover:bg-primary/40">
               Mercado em Crescimento
             </Badge>
           </div>
@@ -63,35 +66,39 @@ const Index = () => {
           <div className="glass-card p-8 rounded-2xl">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <Badge className="bg-primary/20 text-primary hover:bg-primary/30">
-                  Nossa História
+                <Badge className="bg-primary/20 text-primary text-md font-semibold hover:bg-primary/30">
+                  Quem sou eu? Prazer Gabriel.
                 </Badge>
-                <h2 className="text-3xl font-bold">
-                  +5 Anos de Experiência no Mercado de Skins
+                <h2 className="text-lg text-white/70 ml-3">
+                  Olá jogadores! <br /> Sou Gabriel, colecionador e especialista
+                  em skins de CS2, com uma seleção cuidadosa de skins raras e
+                  valiosas. Minha missão é fornecer aos jogadores as melhores
+                  oportunidades para personalizar suas experiências de jogo e se
+                  destacar nas competições.
                 </h2>
-                <p className="text-white/70">
-                  Com mais de R$ 2 milhões em transações realizadas e uma
-                  comunidade de mais de 10.000 investidores, a Mr Skins se tornou
-                  referência no mercado de skins de CS2.
+                <p className="text-primary">
+                  Com mais de 500 transações realizadas e com mais de 350 itens
+                  no inventário, a Mr Skins se tornou referência no mercado de
+                  skins de CS2.
                 </p>
                 <ul className="space-y-4 text-white/90">
                   <li className="flex items-center gap-2">
                     <ShieldCheck className="text-primary" />
-                    Certificação Steam Market Expert
+                    Segurança garantida
                   </li>
                   <li className="flex items-center gap-2">
                     <Users className="text-primary" />
-                    +10.000 alunos satisfeitos
+                    +500 jogadores satisfeitos
                   </li>
                   <li className="flex items-center gap-2">
                     <TrendingUp className="text-primary" />
-                    98% de acerto nas análises
+                    100% de lucro em skins raras
                   </li>
                 </ul>
               </div>
               <div className="relative aspect-square rounded-2xl overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80"
+                  src={perfil_1}
                   alt="Trader analisando mercado"
                   className="object-cover w-full h-full"
                 />
@@ -105,7 +112,7 @@ const Index = () => {
       <section className="py-24 px-6 bg-secondary/30">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <Badge className="bg-primary/20 text-primary hover:bg-primary/30">
+            <Badge className="bg-primary/20 border border-primary text-primary hover:bg-primary/40">
               Vantagens
             </Badge>
             <h2 className="text-3xl font-bold mt-4">
@@ -130,11 +137,11 @@ const Index = () => {
       <section className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <Badge className="bg-primary/20 text-primary hover:bg-primary/30">
+            <Badge className="bg-primary/20 border border-primary text-primary hover:bg-primary/40">
               Depoimentos
             </Badge>
             <h2 className="text-3xl font-bold mt-4">
-              O Que Dizem Nossos Investidores
+              O Que Dizem Nossos Clientes
             </h2>
           </div>
           <Testimonials />
