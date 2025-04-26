@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { HandCoins, ShieldCheck, TrendingUp, Users } from "lucide-react";
-import logo from "@/assets/logo.png";
-import perfil from "@/assets/perfil.png";
+import logo from "../../public/assets/logo.png"
+import perfil from "../../public/assets/Perfil.png";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
