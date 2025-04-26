@@ -1,7 +1,8 @@
 import { Badge } from "@/components/ui/badge";
 import { HandCoins, ShieldCheck, TrendingUp, Users } from "lucide-react";
-import logo from "../../public/assets/logo.png"
+
 import perfil from "../../public/assets/Perfil.png";
+
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -33,11 +34,7 @@ const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <header>
-        <div>
-          <img src={logo} alt="Logo" className="h-32" />
-        </div>
-      </header>
+      
       {/* Hero Section */}
       <section className="hero-gradient min-h-screen flex items-center relative">
         <div className="max-w-7xl mx-auto px-6 py-24 relative z-10">
