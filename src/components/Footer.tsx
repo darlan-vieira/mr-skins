@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
+
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center space-x-4">
             <img 
-              src={logo} 
+              src="" 
               alt="Mr Skins Logo" 
               className="h-10 w-auto"
             />
