@@ -15,11 +15,10 @@
     --popover: 232 22% 13%;
     --popover-foreground: 0 0% 98%;
  
-<<<<<<< HEAD
     --primary: 204 94% 68%;
-=======
+    
     --primary: 204 94% 68%; /* Changed from purple to blue (Tailwind blue-500) */
->>>>>>> 696fe23de6584ed52b4d540239516f267c24c154
+
     --primary-foreground: 0 0% 98%;
  
     --secondary: 232 22% 23%;
@@ -28,24 +27,21 @@
     --muted: 232 22% 23%;
     --muted-foreground: 215 20.2% 65.1%;
  
-<<<<<<< HEAD
     --accent: 204 94% 68%;
-=======
+
     --accent: 204 94% 68%; /* Matching primary color */
->>>>>>> 696fe23de6584ed52b4d540239516f267c24c154
     --accent-foreground: 0 0% 98%;
  
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
  
     --border: 232 22% 23%;
-<<<<<<< HEAD
+
     --input: 204 94% 68%;
     --ring: 204 94% 68%;
-=======
+
     --input: 232 22% 23%;
     --ring: 204 94% 68%; /* Blue ring */
->>>>>>> 696fe23de6584ed52b4d540239516f267c24c154
  
     --radius: 0.75rem;
   }
