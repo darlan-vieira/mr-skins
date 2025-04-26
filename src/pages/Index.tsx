@@ -2,9 +2,9 @@ import { Badge } from "@/components/ui/badge";
 import { HandCoins, ShieldCheck, TrendingUp, Users } from "lucide-react";
 import logo from "@/assets/logo.png";
 import perfil from "@/assets/perfil.png";
-import EmailCaptureForm from "@/components/EmailCaptureForm";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import { Button } from "@/components/ui/button";
 
 const benefits = [
   {
@@ -55,7 +55,12 @@ const Index = () => {
               Descubra como investir de forma inteligente no mercado de skins e
               maximize seus lucros com estratégias comprovadas.
             </p>
-            <EmailCaptureForm />
+            <Button
+              type="submit"
+              className="bg-primary hover:bg-primary/90 text-white font-medium"
+            >
+              Começar Agora
+            </Button>
           </div>
         </div>
       </section>
