@@ -1,5 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { HandCoins, ShieldCheck, TrendingUp, Users } from "lucide-react";
+import logo from "@/assets/logo.png";
+import perfil from "@/assets/perfil.png";
 import EmailCaptureForm from "@/components/EmailCaptureForm";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
@@ -33,7 +35,7 @@ const Index = () => {
       {/* Header */}
       <header>
         <div>
-          <img src="" alt="Logo" className="h-32" />
+          <img src={logo} alt="Logo" className="h-32" />
         </div>
       </header>
       {/* Hero Section */}
@@ -96,8 +98,8 @@ const Index = () => {
               </div>
               <div className="relative aspect-square rounded-2xl overflow-hidden">
                 <img
-                  src=""
-                  alt="Trader analisando mercado"
+                  src={perfil}
+                  alt="Foto de perfil"
                   className="object-cover w-full h-full"
                 />
               </div>
