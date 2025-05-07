@@ -6,6 +6,7 @@ import perfil from "../../public/assets/Perfil.png";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import LogoTicker from "@/components/LogoTicker";
 
 const benefits = [
   {
@@ -61,6 +62,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      <LogoTicker />
 
       {/* Bio Section */}
       <section className="py-24 px-6">
