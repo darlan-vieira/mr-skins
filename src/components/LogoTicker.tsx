@@ -1,15 +1,15 @@
 'use client'
 
-import AK47_1 from "../../public/assets/skins/AK47_1.png";
-import AK47_2 from "../../public/assets/skins/AK47_2.png";
-import Avatar_1 from "../../public/assets/skins/Avatar_1.png";
-import Avatar_2 from "../../public/assets/skins/Avatar_2.png";
-import Desert_1 from "../../public/assets/skins/Desert_1.png";
-import Desert_2 from "../../public/assets/skins/Desert_2.png";
-import Desert_3 from "../../public/assets/skins/Desert_3.png";
-import luva from "../../public/assets/skins/luva.png";
-import Pistola_2 from "../../public/assets/skins/Pistola_2.png";
-import Pistola_green from "../../public/assets/skins/Pistola_green.png";
+import AK47_1 from "../../public/assets/AK47_1.png";
+import AK47_2 from "../../public/assets/AK47_2.png";
+import Avatar_1 from "../../public/assets/Avatar_1.png";
+import Avatar_2 from "../../public/assets/Avatar_2.png";
+import Desert_1 from "../../public/assets/Desert_1.png";
+import Desert_2 from "../../public/assets/Desert_2.png";
+import Desert_3 from "../../public/assets/Desert_3.png";
+import luva from "../../public/assets/luva.png";
+import Pistola_2 from "../../public/assets/Pistola_2.png";
+import Pistola_green from "../../public/assets/Pistola_green.png";
 
 import { motion } from "framer-motion";
 
