@@ -5,8 +5,9 @@ import perfil from "../../public/assets/Perfil.png";
 
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
-import { Button } from "@/components/ui/button";
 import LogoTicker from "@/components/LogoTicker";
+import ButtonLayot from "@/components/Button";
+import Header from "@/components/Header";
 
 const benefits = [
   {
@@ -35,7 +36,8 @@ const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      
+      <Header />
+
       {/* Hero Section */}
       <section className="hero-gradient min-h-screen flex items-center relative">
         <div className="max-w-7xl mx-auto px-6 py-24 relative z-10">
@@ -53,12 +55,7 @@ const Index = () => {
               Descubra como investir de forma inteligente no mercado de skins e
               maximize seus lucros com estratégias comprovadas.
             </p>
-            <Button
-              type="submit"
-              className="bg-primary hover:bg-primary/90 text-white font-medium"
-            >
-              Começar Agora
-            </Button>
+            <ButtonLayot />
           </div>
         </div>
       </section>
@@ -100,6 +97,7 @@ const Index = () => {
                     100% de lucro em skins raras
                   </li>
                 </ul>
+                <ButtonLayot />
               </div>
               <div className="relative aspect-square rounded-2xl overflow-hidden">
                 <img

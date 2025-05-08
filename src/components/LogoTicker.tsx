@@ -1,14 +1,24 @@
 'use client'
 
-import skin_01B from "../../public/assets/skin_01B.png";
+import AK47_1 from "../../public/assets/skins/AK47_1.png";
+import AK47_2 from "../../public/assets/skins/AK47_2.png";
+import Avatar_1 from "../../public/assets/skins/Avatar_1.png";
+import Avatar_2 from "../../public/assets/skins/Avatar_2.png";
+import Desert_1 from "../../public/assets/skins/Desert_1.png";
+import Desert_2 from "../../public/assets/skins/Desert_2.png";
+import Desert_3 from "../../public/assets/skins/Desert_3.png";
+import luva from "../../public/assets/skins/luva.png";
+import Pistola_2 from "../../public/assets/skins/Pistola_2.png";
+import Pistola_green from "../../public/assets/skins/Pistola_green.png";
+
 import { motion } from "framer-motion";
 
 const LogoTicker = () => {
   return (
     <div className="py-8 md:py-12 ">
-      <div className="flex items-center justify-center h-20 md:h-32 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
+      <div className="flex items-center justify-center h-32 md:h-32 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
         <motion.div
-          className="flex space-x-4 animate-marquee whitespace-nowrap"
+          className="flex gap-14 flex-none pr-14"
           animate={{
             translateX: "-50%",
           }}
@@ -19,57 +29,17 @@ const LogoTicker = () => {
             repeatType: "loop",
           }}
         >
-          <img
-            src={skin_01B}
-            alt="Logo"
-            className="h-32 md:h-48 justify-start"
-          />
-          <img
-            src={skin_01B}
-            alt="Logo"
-            className="h-32 md:h-48 justify-start"
-          />
-          <img
-            src={skin_01B}
-            alt="Logo"
-            className="h-32 md:h-48 justify-start"
-          />
-          <img
-            src={skin_01B}
-            alt="Logo"
-            className="h-32 md:h-48 justify-start"
-          />
-          <img
-            src={skin_01B}
-            alt="Logo"
-            className="h-32 md:h-48 justify-start"
-          />
-          {/* Segunda sessão de logos */}
-          <img
-            src={skin_01B}
-            alt="Logo"
-            className="h-32 md:h-48 justify-start"
-          />
-          <img
-            src={skin_01B}
-            alt="Logo"
-            className="h-32 md:h-48 justify-start"
-          />
-          <img
-            src={skin_01B}
-            alt="Logo"
-            className="h-32 md:h-48 justify-start"
-          />
-          <img
-            src={skin_01B}
-            alt="Logo"
-            className="h-32 md:h-48 justify-start"
-          />
-          <img
-            src={skin_01B}
-            alt="Logo"
-            className="h-32 md:h-48 justify-start"
-          />
+          <img src={AK47_1} alt="Logo" className="h-32" />
+          <img src={AK47_2} alt="Logo" className="h-32" />
+          <img src={Avatar_1} alt="Logo" className="h-32" />
+          <img src={Avatar_2} alt="Logo" className="h-32" />
+          <img src={Desert_1} alt="Logo" className="h-32" />
+          <img src={Desert_2} alt="Logo" className="h-32" />
+          <img src={Desert_3} alt="Logo" className="h-32" />
+          <img src={luva} alt="Logo" className="h-32" />
+          <img src={Pistola_2} alt="Logo" className="h-32" />
+          <img src={Pistola_green} alt="Logo" className="h-32" />
+
         </motion.div>
       </div>
     </div>
