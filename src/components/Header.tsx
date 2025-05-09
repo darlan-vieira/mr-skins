@@ -1,5 +1,4 @@
-import logo from "../../public/assets/logo.png";
-import overlay from "../../public/assets/Overlay.gif";
+import logo from "@/assets/logo.png";
 import ButtonLayot from "./Button";
 
 const Header = () => {
