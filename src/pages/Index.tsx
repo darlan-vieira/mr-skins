@@ -49,7 +49,7 @@ const Index = () => {
           <div className="max-w-3xl space-y-6">
             <h1 className="text-4xl sm:text-6xl font-bold">
               Transforme Skins de CS2 em{" "}
-              <span className="text-gradient">Investimentos Lucrativos</span>
+              <span className="text-gradient">Dollar U$</span>
             </h1>
             <p className="text-xl text-white/70">
               Descubra como investir de forma inteligente no mercado de skins e
