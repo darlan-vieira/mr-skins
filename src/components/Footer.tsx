@@ -1,6 +1,8 @@
 
-import { Button } from "@/components/ui/button";
 import logo2 from "@/assets/logo2.png";
+import  {InstagramLogo}  from "@phosphor-icons/react";
+import { DiscordLogo } from "@phosphor-icons/react";
+import { SteamLogo } from "@phosphor-icons/react";
 
 
 const Footer = () => {
@@ -64,16 +66,29 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Redes Sociais</h4>
             <div className="flex gap-4">
-              <Button variant="ghost" className="hover:text-primary" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  Instagram
-                </a>
-              </Button>
-              <Button variant="ghost" className="hover:text-primary" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  Discord
-                </a>
-              </Button>
+              <a
+                href="https://www.instagram.com/mrskins.cs2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <InstagramLogo size={32} />
+              </a>
+
+              <a
+                href="https://discord.gg/7TCMzS2e"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <DiscordLogo size={32} />
+              </a>
+
+              <a
+                href="https://steamcommunity.com/id/MrSsuncioN"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SteamLogo size={32} />
+              </a>
             </div>
           </div>
         </div>

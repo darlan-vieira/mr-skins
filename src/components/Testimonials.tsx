@@ -1,29 +1,40 @@
 
 import { Card } from "@/components/ui/card";
 import { Star } from "lucide-react";
+import {
+  ChevronLeft,
+  ChevronRight
+} from "lucide-react";
 
 const testimonials = [
   {
-    name: "Rafael Silva",
-    role: "Investidor",
-    content: "Já lucrei mais de R$50.000 seguindo as estratégias da Mr Skins. A plataforma é sensacional!",
-    rating: 5
+    name: "Fabrício Correa",
+    role: "Gamer",
+    content: "Super prestativo!",
+    rating: 5,
   },
   {
-    name: "Lucas Santos",
+    name: "George Augusto",
     role: "Trader de Skins",
-    content: "A melhor plataforma para quem quer começar a investir em skins. Conteúdo de altíssima qualidade.",
-    rating: 5
+    content: " Oh brabo, o melhor do Brasil!",
+    rating: 5,
   },
   {
-    name: "Mariana Costa",
-    role: "Investidora",
-    content: "Comecei do zero e hoje tenho um portfólio sólido graças às dicas da Mr Skins. Recomendo muito!",
-    rating: 5
-  }
+    name: "Matheus Maggi",
+    role: "Gamer",
+    content: "Comprei um kit e chegou rapidin, valeu irmão!!",
+    rating: 5,
+  },
+  {
+    name: "Darlan Vieira",
+    role: "Gamer",
+    content: "Obrigado por mostrar o lado lucrativo do cs2!",
+    rating: 5,
+  },
 ];
 
 const Testimonials = () => {
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {testimonials.map((testimonial, index) => (

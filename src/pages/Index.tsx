@@ -7,7 +7,8 @@ import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import LogoTicker from "@/components/LogoTicker";
 import ButtonLayot from "@/components/Button";
-import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+//import Header from "@/components/Header";
 
 const benefits = [
   {
@@ -36,29 +37,9 @@ const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <Header />
 
       {/* Hero Section */}
-      <section className="hero-gradient min-h-screen flex items-center relative">
-        <div className="max-w-7xl mx-auto px-6 py-24 relative z-10">
-          <div className="flex items-center gap-4 mb-6">
-            <Badge className="bg-primary/20 border border-primary text-primary hover:bg-primary/40">
-              Mercado em Crescimento
-            </Badge>
-          </div>
-          <div className="max-w-3xl space-y-6">
-            <h1 className="text-4xl sm:text-6xl font-bold">
-              Transforme Skins de CS2 em{" "}
-              <span className="text-gradient">Dollar U$</span>
-            </h1>
-            <p className="text-xl text-white/70">
-              Descubra como investir de forma inteligente no mercado de skins e
-              maximize seus lucros com estratégias comprovadas.
-            </p>
-            <ButtonLayot />
-          </div>
-        </div>
-      </section>
+      <Hero />
 
       <LogoTicker />
 
